@@ -33,6 +33,8 @@
 
 完成上面两步操作后来到系统设置进行证书安装和信任
 ![图片 6](https://github.com/dhjhb/Surge/assets/101947375/27904e52-523d-4797-a17d-397d4c2bfb43)
+点击关于本机->页面最下方证书信任->信任刚安装的证书
+
 返回Surge可以看到证书系统已信任，可以正常使用了。
 
 ![图片 7](https://github.com/dhjhb/Surge/assets/101947375/cf5e4d63-58d0-4712-87fb-3de846b13e52)
