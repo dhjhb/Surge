@@ -256,15 +256,15 @@
     RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list,GitHub
     RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,YouTube
     RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list,Google
-我们用为Telegram添加代理规则集来做一下操作对照.
+我们用为*Telegram*添加代理规则集来做一下操作对照.
 
-按下图操作,在策略中选择Telegram后在外部规则集中添加[规则仓库](https://github.com/blackmatrix7/ios_rule_script)中的规则集链接后,会在配置文件规则部分([Rule])出现以下代码.    
+按下图操作,在策略中选择*Telegram*后在外部规则集中添加[规则仓库](https://github.com/blackmatrix7/ios_rule_script)中的规则集链接后,会在配置文件规则部分([Rule])出现以下代码.    
 
     RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list,Telegram
 
 ![图片 5 2](https://github.com/dhjhb/Surge/assets/101947375/f37347d5-0630-4b8c-9648-91997cdf34ec)
 
-通过对照你便发现了这个步骤中Surge图形交互与代码内容的对应关系.以此可以直接编写bilibili的策略规则了.
+通过对照你便发现了这个步骤中Surge图形交互与代码内容的对应关系.以此可以直接编写*bilibili*的策略规则了.
           
     [Rule]
      #规则集-----------------------------
