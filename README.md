@@ -126,12 +126,7 @@
 
 策略建议选择筛选所有节点中延迟最低的，以便于后续外部规则集使用时能更快与GitHub进行连接。
 
-之后便可轻松访问[@blackmatrix7](https://github.com/blackmatrix7)大神的规则仓库来添加更多的规则集了。
-
-
-# 规则仓库
-
-    https://github.com/blackmatrix7/ios_rule_script
+之后便可轻松访问[@blackmatrix7](https://github.com/blackmatrix7)大神的[规则仓库](https://github.com/blackmatrix7/ios_rule_script)来添加更多的规则集了。
 
 我们继续以YouTube的规则集添加为例。
 ![图片 17](https://github.com/dhjhb/Surge/assets/101947375/4bf34ff2-4fd9-40c1-8777-7d7c81d4da46)
