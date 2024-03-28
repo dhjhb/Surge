@@ -227,7 +227,25 @@
 
 对应用程序或网络域名设置策略组就相对简单很多.
 
-<img width="1064" alt="截屏2024-03-28 20 55 49" src="https://github.com/dhjhb/Surge/assets/101947375/3b6d30ec-8f5b-4d7f-a27f-486325c543af">
+    #策略组
+    [Proxy Group]
+
+    #域名策略组-----------------------------
+    GitHub = select, 🇭🇰香港组
+    YouTube = select, 🇭🇰香港组, 🇨🇳台湾组
+    Google = select, 🇭🇰香港组, 🇨🇳台湾组, 🇪🇬埃及组
+    Telegram = select, 🇰🇷韩国组, 🇨🇳台湾组, 🇺🇸美国组
+    bilibili = select, 🚀直接连接, 🇭🇰香港组, 🇨🇳台湾组
+
+    #节点国家策略组-----------------------------
+    🇭🇰香港组 = url-test, policy-regex-filter=港, no-alert=0, hidden=1, include-all-proxies=1
+    🇯🇵日本组 = url-test, policy-regex-filter=日, no-alert=0, hidden=1, include-all-proxies=1
+    🇨🇳台湾组 = url-test, policy-regex-filter=台, no-alert=0, hidden=1, include-all-proxies=1
+    🇸🇬新加坡组 = url-test, policy-regex-filter=新, no-alert=0, hidden=1, include-all-proxies=1
+    🇰🇷韩国组 = url-test, policy-regex-filter=韩, no-alert=0, hidden=1, include-all-proxies=1
+    🇺🇸美国组 = url-test, policy-regex-filter=美, no-alert=0, hidden=1, include-all-proxies=1
+    🇪🇬埃及组 = url-test, policy-regex-filter=埃, no-alert=0, hidden=1, include-all-proxies=1
+    🌍东亚组 = fallback, update-interval=0, policy-regex-filter=台|新|韩|港|日, no-alert=0, hidden=0, include-all-proxies=1
 
 以上我们同时新设置*Telegram*、*bilibili*两个策略组,并为它们安排了可选的几个国家策略组.
 
